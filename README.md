@@ -7,6 +7,8 @@ Yeoman webapp and Dockerfile with some extras installed - namely [assemble](http
 
 ### Build
 
+This image built using the docker Yeoman base image
+
 Build the Container:
 `docker build -t <username>/yo-web-app .`
 
@@ -17,7 +19,7 @@ Inspect your containers environment
 
 #### Development
 
-Develop on an existing yeoman project or by customizing the boilerplate
+Develop on an existing yeoman project or by customizing the [boilerplate](https://github.com/deanvn/docker-yo-boilerplate)
 
 `docker run -it -p 9000:9000 -p 35729:35729 -d -v $(pwd)/app:/src/app --name yo-web-app <username>/yo-web-app gulp serve`
 
