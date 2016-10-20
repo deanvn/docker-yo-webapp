@@ -1,4 +1,4 @@
-FROM deanvn/yeoman-web-app
+FROM dniekerk/yo-node-base
 
 USER root
 
