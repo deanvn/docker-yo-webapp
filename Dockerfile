@@ -1,4 +1,4 @@
-FROM dniekerk/yo-node-base
+FROM deanvn/yo-node-base
 
 USER root
 
