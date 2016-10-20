@@ -1,4 +1,4 @@
-FROM deanvn/yo-node-base
+FROM deanvn/docker-yo-base
 
 USER root
 
